@@ -4,3 +4,7 @@ sudo apt install docker.io
 
 # npm
 sudo npm install -g clipboard-cli
+
+#git
+cd /opt
+git clone https://github.com/danielmiessler/SecLists.git
