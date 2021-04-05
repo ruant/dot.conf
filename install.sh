@@ -9,6 +9,4 @@ sudo npm install -g clipboard-cli
 cd /opt
 git clone https://github.com/danielmiessler/SecLists.git
 git clone https://github.com/fuzzdb-project/fuzzdb.git
-
-# copy files from this repo
-cp httpserver.py /opt/
+git clone https://github.com/ruant/SimpleHTTPServerWithUpload
