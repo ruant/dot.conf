@@ -25,4 +25,4 @@ pip3 install -r /opt/impacket/requirements.txt
 cd /opt/impacket/ && sudo python3 ./setup.py install
 
 # Compile and install kerbrute
-cd /opt/kerbrute/ && make all
+cd /opt/kerbrute/ && make linux && make windows
