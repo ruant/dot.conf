@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # apt installation
 sudo apt install npm
 sudo apt install docker.io
