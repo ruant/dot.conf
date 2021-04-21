@@ -16,6 +16,7 @@ git clone https://github.com/fuzzdb-project/fuzzdb.git
 git clone https://github.com/ruant/SimpleHTTPServerWithUpload
 git clone https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite.git
 git clone https://github.com/SecureAuthCorp/impacket.git
+git clone https://github.com/CiscoCXSecurity/enum4linux.git
 
 # pip it!
 pip3 install -r /opt/impacket/requirements.txt
