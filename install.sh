@@ -3,6 +3,8 @@
 # apt installation
 sudo apt install npm
 sudo apt install docker.io
+sudo apt install bloodhound
+sudo apt install neo4j
 
 # npm
 sudo npm install -g clipboard-cli
