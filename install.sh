@@ -10,6 +10,9 @@ sudo apt install golang-go
 # npm
 sudo npm install -g clipboard-cli
 
+# gem
+sudo gem install evil-winrm
+
 # git
 cd /opt
 git clone https://github.com/danielmiessler/SecLists.git
