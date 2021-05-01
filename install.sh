@@ -17,9 +17,7 @@ sudo gem install evil-winrm
 cd /opt
 git clone https://github.com/danielmiessler/SecLists.git
 git clone https://github.com/fuzzdb-project/fuzzdb.git
-git clone https://github.com/ruant/SimpleHTTPServerWithUpload
 git clone https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite.git
-git clone https://github.com/SecureAuthCorp/impacket.git
 git clone https://github.com/CiscoCXSecurity/enum4linux.git
 git clone https://github.com/ropnop/kerbrute.git
 
@@ -29,9 +27,14 @@ wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
 unzip ngrok-stable-linux-amd64.zip
 rm ngrok-stable-linux-amd64.zip
 
-# pip it!
+# updog - http server down and upload
+pip3 install updog
+
+# impacket
+cd /opt
+git clone https://github.com/SecureAuthCorp/impacket.git
 pip3 install -r /opt/impacket/requirements.txt
 cd /opt/impacket/ && sudo python3 ./setup.py install
 
-# Compile and install kerbrute
+# kerbrute - compile and install
 cd /opt/kerbrute/ && make linux && make windows
