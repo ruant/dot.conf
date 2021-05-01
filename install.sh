@@ -23,6 +23,12 @@ git clone https://github.com/SecureAuthCorp/impacket.git
 git clone https://github.com/CiscoCXSecurity/enum4linux.git
 git clone https://github.com/ropnop/kerbrute.git
 
+# ngrok
+cd /opt
+wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.zip
+unzip ngrok-stable-linux-amd64.zip
+rm ngrok-stable-linux-amd64.zip
+
 # pip it!
 pip3 install -r /opt/impacket/requirements.txt
 cd /opt/impacket/ && sudo python3 ./setup.py install
