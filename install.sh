@@ -13,6 +13,7 @@ sudo apt -y install bloodhound
 sudo apt -y install neo4j
 sudo apt -y install golang-go
 sudo apt -y install unzip
+sudo apt -y install python3-pip
 
 # npm
 sudo npm install -g clipboard-cli
