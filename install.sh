@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# update apt
+sudo apt update
+
 # apt installation
 sudo apt install npm
 sudo apt install docker.io
@@ -20,6 +23,7 @@ git clone https://github.com/fuzzdb-project/fuzzdb.git
 git clone https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite.git
 git clone https://github.com/CiscoCXSecurity/enum4linux.git
 git clone https://github.com/ropnop/kerbrute.git
+git clone https://github.com/ruant/SimpleHTTPServerWithUpload.git
 
 # ngrok
 cd /opt
