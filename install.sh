@@ -12,6 +12,7 @@ sudo apt -y install docker.io
 sudo apt -y install bloodhound
 sudo apt -y install neo4j
 sudo apt -y install golang-go
+sudo apt -y install unzip
 
 # npm
 sudo npm install -g clipboard-cli
