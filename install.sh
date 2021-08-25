@@ -1,14 +1,17 @@
 #!/bin/bash
 
+# Copy .-files to current user dir
+cp .* ~/
+
 # update apt
 sudo apt update
 
 # apt installation
-sudo apt install npm
-sudo apt install docker.io
-sudo apt install bloodhound
-sudo apt install neo4j
-sudo apt install golang-go
+sudo apt -y install npm
+sudo apt -y install docker.io
+sudo apt -y install bloodhound
+sudo apt -y install neo4j
+sudo apt -y install golang-go
 
 # npm
 sudo npm install -g clipboard-cli
