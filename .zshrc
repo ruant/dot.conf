@@ -209,3 +209,6 @@ fi
 if [ -f ~/.zsh_aliases ]; then
     . ~/.aliases
 fi
+
+## Add pip3 installed apps to path
+export PATH=~/.local/bin:\$PATH" >> .zshrc
