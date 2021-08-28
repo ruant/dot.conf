@@ -137,4 +137,4 @@ if ! shopt -oq posix; then
 fi
 
 ## Add pip3 installed apps to path
-export PATH=~/.local/bin:\$PATH" >> .zshrc
+export PATH=~/.local/bin:\$PATH
