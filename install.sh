@@ -17,6 +17,7 @@ sudo apt -y install python3-pip
 
 # npm
 sudo npm install -g clipboard-cli
+sudo npm install -g jwt-cracker
 
 # gem
 sudo gem install evil-winrm
