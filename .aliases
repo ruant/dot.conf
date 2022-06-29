@@ -2,3 +2,6 @@ alias sudo='sudo '
 alias rustscan='docker run -it --rm --name rustscan rustscan/rustscan:1.10.0'
 alias cb=clipboard
 alias httpserver='sudo python3 /opt/SimpleHTTPServerWithUpload/SimpleHTTPServerWithUpload.py '
+
+# Show full time, easier to spot changed files
+alias ls='ls -la --full-time'
