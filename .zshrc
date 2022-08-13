@@ -204,4 +204,4 @@ if [ -f ~/.aliases ]; then
 fi
 
 ## Add pip3 installed apps to path
-export PATH=~/.local/bin:\$PATH
+export PATH=~/.local/bin:$PATH
