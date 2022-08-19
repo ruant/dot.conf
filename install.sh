@@ -1,7 +1,10 @@
 #!/bin/bash
 
+# Make opt yours
+sudo chown -R $USER:$USER /opt
+
 # Copy .-files to current user dir
-cp .* ~/
+cp .* ~/ > /dev/null 2>&1
 
 # update apt
 sudo apt update
